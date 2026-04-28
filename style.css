@@ -303,6 +303,7 @@ img { max-width: 100%; display: block; }
 .cta-section::before {
   content: ''; position: absolute; inset: 0;
   background: radial-gradient(ellipse at center, rgba(16, 163, 127, 0.15), transparent 70%);
+  z-index: -1;
 }
 .cta-content { position: relative; }
 .cta-content h2 { font-size: 2.5rem; margin-bottom: 16px; }
